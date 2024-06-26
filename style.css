@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3e5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.header {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5e35b1;
+  margin-bottom: 5px;
+}
+.description {
+  font-size: 14px;
+  color: #555;
+}
+.question {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+}
+.question label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+.radio-group label {
+  margin-bottom: 4px;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #5e35b1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.submit-btn:hover {
+  background-color: #452c87;
+}
+.next-btn{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #5e35b1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.next-btn:hover{
+  background-color: #452c87;
+}
+#uploadSection{
+  display: block;
+  padding: 10px;
+  background-color: #5e35b1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* General container styling */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header styling */
+.header .title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.header .description {
+  margin-bottom: 1em;
+}
+
+/* Tab button styling */
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.tabs .tablinks {
+  background-color: #f3e5f5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.tabs .tablinks:hover {
+  background-color: #452c87;
+  color: white;
+}
+
+.tabs .tablinks.active {
+  background-color: #5e35b1;
+  color: white;
+}
+
+/* Tab content styling */
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+@media (max-width: 600px) {
+    .tabs .tablinks {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .tabcontent {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tabs .tablinks {
+        padding: 8px;
+        font-size: 12px;
+    }
+    
+    .tabcontent {
+        padding: 10px;
+    }
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.summary-table th, .summary-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.summary-table th {
+  background-color: #f2f2f2;
+}
+
